@@ -1,0 +1,9 @@
+{
+    "id": 1,
+    "username": "user01",
+    "email": "user01@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ],
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzE1NjU4MjE5LCJleHAiOjE3MTU3NDQ2MTl9.pTitWeb_ntsxF5piv8fZhnvBr6HRbsRo9MBwR3Ao1JY"
+}
