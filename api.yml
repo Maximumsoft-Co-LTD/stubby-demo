@@ -15,3 +15,13 @@
       headers:
         content-type: application/json
       file: user_2.json
+
+
+-  request:
+      url: /login/test
+      method: POST
+   response:
+    - status: 404
+      headers:
+        content-type: application/json
+      file: login.json
