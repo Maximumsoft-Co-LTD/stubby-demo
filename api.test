@@ -1,0 +1,11 @@
+
+###
+GET http://localhost:8882/history-deposit-umpay HTTP/1.1
+
+###
+POST http://localhost:8882/api/users HTTP/1.1
+content-type: application/json
+
+{
+    "username": "user01"
+}

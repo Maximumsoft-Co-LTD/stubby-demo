@@ -32,10 +32,22 @@
       method: POST
       headers:
          content-type: application/json
-      file: ./3rd-party-name/account/accountRequest.json
+      file: accountRequest.json
 
    response:
       status: 200
       headers:
          content-type: application/json
-      file: ./3rd-party-name/account/accountResponse.json
+      file: accountResponse.json
+
+- request:
+    url: /api/users
+    method: POST
+    headers:
+      content-type: application/json
+    file: accountRequest.json    # File containing the request body
+  response:
+    status: 200
+    headers:
+      content-type: application/json
+    file: accountResponse.json   # File containing the response body
